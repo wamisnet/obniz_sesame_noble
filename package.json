@@ -1,0 +1,19 @@
+{
+  "name": "obniz_sesame_noble",
+  "version": "1.0.0",
+  "description": "obniz nobleでSesameをコントロールするプログラム",
+  "main": "main.js",
+  "dependencies": {
+    "express": "^4.17.1",
+    "log4js": "^4.4.0",
+    "obniz-noble": "git+ssh://git@github.com/wamisnet/obniz-noble.git",
+    "readline": "^1.3.0",
+    "yarn": "^1.16.0"
+  },
+  "scripts": {
+    "start": "node main.js"
+  },
+  "devDependencies": {},
+  "author": "wamisnet",
+  "license": "ISC"
+}
